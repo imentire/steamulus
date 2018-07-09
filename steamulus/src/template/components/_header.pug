@@ -1,0 +1,26 @@
+mixin header()
+    header.ui-header
+        .container
+            .row.align-items-center
+                .col-12.col-md-6.col-lg-4
+                    a.ui-logo(href="/")
+                        img(src="/static/images/logo.png", alt="")
+                .col-12.col-md-6.col-lg-4
+                    .ui-slogan Онлайн-платформа сопровождения школьных проектов “STEAMULUS”
+                .col-12.col-md-6.col-lg-1.offset-lg-3
+                    .ui-signin-link войти
+    nav
+        .container
+            .row.align-items-center
+                .col-12.col-lg-10.offset-lg-1
+                    ul.ui-menu
+                        li.ui-menu__item
+                            a.ui-menu__link О Программе
+                        li.ui-menu__item
+                            a.ui-menu__link Проекты
+                        li.ui-menu__item
+                            a.ui-menu__link Площадки
+                        li.ui-menu__item
+                            a.ui-menu__link Наставники
+                        li.ui-menu__item
+                            a.ui-menu__link Материалы

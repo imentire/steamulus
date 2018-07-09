@@ -1,0 +1,11 @@
+extends ../extend/default
+
+block variables
+    - var title = 'Home page';
+
+block main
+    main.content(data-page='home')
+
+        a(href='https://vintage.com.ua', target='_blank')
+            div hello Vintage!
+            +svg('vintage-logo', 'example')

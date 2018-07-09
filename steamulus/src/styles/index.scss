@@ -1,0 +1,19 @@
+/* LIBS */
+@import 'libs/vintage-reset-normalize';
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1410px) !default;
+$container-max-widths: ( sm: 540px, md: 720px, lg: 960px, xl: 1350px) !default;
+@import '../../node_modules/bootstrap/scss/bootstrap-grid';
+
+/* PARTIALS */
+@import 'partials/_mixins';
+@import 'partials/_variables';
+@import 'partials/_fonts';
+@import 'partials/_helpers';
+@import 'partials/_keyframes';
+@import 'partials/_svg';
+
+/* COMPONENTS */
+@import 'components/common';
+
+/* PAGES */
+@import 'pages/home';

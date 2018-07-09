@@ -1,0 +1,90 @@
+body {
+  background-color: $white-smoke;
+}
+
+.ui-header {
+  background: linear-gradient(to right, $orange, $yellow);
+  padding: 20px 0;
+  letter-spacing: 0.2px;
+
+  .ui-slogan {
+    font-family: $font-condensed;
+    font-size: 22px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+  }
+
+  .ui-signin-link {
+    padding-left: 25px;
+    cursor: pointer;
+    font-family: $font-condensed;
+    font-size: 18px;
+    line-height: 24px;
+    color: $dark-blue;
+    background: url('../images/unlock.png') no-repeat left center;
+    &:hover {
+      color: white;
+      background-image: url('../images/unlock--white.png')
+    }
+  }
+}
+
+.ui-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  line-height: 30px;
+  font-size: 20px;
+  color: $dark-blue;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+
+  &__link {
+    cursor: pointer;
+    &:hover {
+      color: $orange;
+      color: $orange;
+    }
+  }
+}
+
+.ui-footer {
+  padding: 30px 0;
+  background: $dark-blue;
+  color: white;
+  font-family: $font-condensed;
+  font-size: 20px;
+  line-height: 30px;
+
+  .ui-email, .ui-phone {
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+      color: $orange;
+    }
+  }
+
+  .ui-social {
+    a {
+      color: white;
+      border: 1px solid;
+      display: inline-flex;
+      width: 30px;
+      text-align: center;
+      height: 30px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+        color: $orange;
+      }
+
+      svg {
+        height: 22px;
+      }
+    }
+  }
+}
