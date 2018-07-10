@@ -1,0 +1,16 @@
+.ui-button {
+  font-family: $font-condensed;
+  font-size: 18px;
+  padding: 10px 22px;
+  font-variant: small-caps;
+  display: inline-block;
+
+  &--gradient {
+    background: linear-gradient(to right, $orange, $yellow);
+    color: white;
+    font-size: 26px;
+    letter-spacing: 0.05px;
+    padding: 15px 57px;
+    font-weight: 500;
+  }
+}

@@ -6,6 +6,16 @@ block variables
 block main
     main.content(data-page='home')
 
-        a(href='https://vintage.com.ua', target='_blank')
-            div hello Vintage!
-            +svg('vintage-logo', 'example')
+        .ui-home-banner
+            .container
+                .row.align-items-center
+                    .col-12.col-lg-10.offset-lg-1
+                        .ui-home-banner__heading
+                            | Помогаем реализовать инновационные
+                            br
+                            | проекты будущего
+                    .col-12.col-lg-8.offset-lg-2
+                        .ui-home-banner__text Считаешь свой проект таким?
+                    .col-12.col-lg-4.offset-lg-4
+                        .ui-home-banner__button
+                            .ui-button.ui-button--gradient Добавить проект
