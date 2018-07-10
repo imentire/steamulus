@@ -19,3 +19,74 @@ block main
                     .col-12.col-lg-4.offset-lg-4
                         .ui-home-banner__button
                             .ui-button.ui-button--gradient Добавить проект
+        .ui-achievements
+            .container
+                .row
+                    .col-12
+                        .container
+                            .row
+                                .col-12.col-md-6.col-lg-3.pl-0.pr-0
+                                    +achievement(487, 'УЧАСТНИКОВ', 'test.png')
+                                .col-12.col-md-6.col-lg-3.pl-0.pr-0
+                                    +achievement(441, 'ПРОЕКТ', 'test.png')
+                                .col-12.col-md-6.col-lg-3.pl-0.pr-0
+                                    +achievement(104, 'ПЛОЩАДКИ', 'test.png')
+                                .col-12.col-md-6.col-lg-3.pl-0.pr-0
+                                    +achievement(49, 'ЭКСПЕРТОВ', 'test.png')
+        .ui-home-news
+            .container
+                .row
+                    .col-12
+                        .ui-heading.ui-heading--default.ui-heading--lvl1.ui-home-news__heading Новости
+                .row
+                    .col-12
+                        .swiper-container.swiper-news
+                            .swiper-wrapper
+                                .swiper-slide
+                                    .ui-news-cart
+                                        .ui-news-cart__header(style="background-image: url('/static/images/news/news-1.png')")
+                                            .ui-news-cart__date 28 МАЯ 2018
+                                        .ui-news-cart__content С 1 июня по 16 сентября старшеклассники смогут принять участие в конкурсе "Ученые будущего". Конкурс направлен на поддержку одаренных детей, развитие у школьников интереса к изучению точных, естественных и инженерных наук, создание условий для интеллектуального развития учащихся, распространение и популяризацию научных знаний и повышение педагогической квалификации преподавателей России и других стран.
+                                .swiper-slide
+                                    .ui-news-cart
+                                        .ui-news-cart__header(style="background-image: url('/static/images/news/news-2.png')")
+                                            .ui-news-cart__date 28 МАЯ 2018
+                                        .ui-news-cart__content Сегодня, в День защиты детей Проектное движение "Реактор" объявляет конкурс “Реактивное лето”! Для участия в конкурсе “Реактивное лето” нужно придумать интересную, яркую, прорывную идею, зарегистрировать ее на сайте и в течение 3 месяцев вести видео-дневник, фиксируя основные этапы работы над своим проектом. Самые яркие и креативные проекты получат призы: стабилизаторы и экшн-камеры!
+                                .swiper-slide
+                                    .ui-news-cart
+                                        .ui-news-cart__header(style="background-image: url('/static/images/news/news-3.png')")
+                                            .ui-news-cart__date 28 МАЯ 2018
+                                        .ui-news-cart__content Сбербанк объявил об открытии в России школы программирования для студентов в возрасте от 18 до 30 лет. Срок обучения в "Школе 21" составит от полутора до четырех лет. Обучение будет вестись по уникальной французской методике, которая в игровой форме позволяет каждому учащемуся строить свою индивидуальную, адаптивную траекторию обучения.
+                                .swiper-slide
+                                    .ui-news-cart
+                                        .ui-news-cart__header(style="background-image: url('/static/images/news/news-4.png')")
+                                            .ui-news-cart__date 28 МАЯ 2018
+                                        .ui-news-cart__content Сбербанк объявил об открытии в России школы программирования для студентов в возрасте от 18 до 30 лет. Срок обучения в "Школе 21" составит от полутора до четырех лет. Обучение будет вестись по уникальной французской методике, которая в игровой форме позволяет каждому учащемуся строить свою индивидуальную, адаптивную траекторию обучения.
+                            .swiper-prev
+                            .swiper-next
+        .ui-home-partners
+            .container
+                .row
+                    .col-12
+                        .ui-home-partners__heading.ui-heading.ui-heading--default.ui-heading--lvl1 Партнеры
+                .row
+                    .col-12
+                        .swiper-container.swiper-partners
+                            .swiper-wrapper
+                                .swiper-slide
+                                    .ui-partner-cart
+                                        img(src="", alt="")
+                                .swiper-slide
+                                    .ui-partner-cart
+                                        img(src="", alt="")
+                                .swiper-slide
+                                    .ui-partner-cart
+                                        img(src="", alt="")
+                                .swiper-slide
+                                    .ui-partner-cart
+                                        img(src="", alt="")
+                                .swiper-slide
+                                    .ui-partner-cart
+                                        img(src="", alt="")
+                            .swiper-partner-prev
+                            .swiper-partner-next

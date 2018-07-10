@@ -1,0 +1,14 @@
+.ui-heading {
+  font-family: $font-default;
+  font-variant: small-caps;
+
+  &--default {
+    color: $dark-blue;
+  }
+
+  &--lvl1 {
+    font-size: 40px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+  }
+}

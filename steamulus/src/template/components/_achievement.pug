@@ -1,0 +1,7 @@
+mixin achievement(number, title, fileName, link)
+    .ui-achievement-cart
+        .ui-achievement-cart__image(style = `background-image: url('/static/images/${fileName || ''}')`)
+        .ui-achievement-cart__content
+            .ui-achievement-cart__text #{number}
+                span #{title}
+            a.ui-achievement-cart__link(href=`${link || '#'}`) +

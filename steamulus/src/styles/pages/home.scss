@@ -32,4 +32,36 @@
   }
 }
 
+.ui-home-news {
+  padding-bottom: 90px;
 
+  &__heading {
+    padding-bottom: 56px;
+  }
+}
+
+.ui-news-cart {
+  font-family: $font-default;
+  font-size: 15px;
+  line-height: 24px;
+  font-variant: small-caps;
+
+  &__header {
+    padding-bottom: 64.25%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__date {
+    color: white;
+    padding: 3px 15px;
+    display: inline-block;
+    background: rgba(22, 51, 90, 0.8);
+  }
+
+  &__content {
+    padding: 26px 20px;
+    background: white;
+  }
+}

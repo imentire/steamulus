@@ -3,41 +3,44 @@
  *
  * @module Home
  */
-
-import { Resp } from '../modules/dev/_helpers';
+import Swiper from 'swiper';
 
 export default class Home {
-  /**
-   * Cache data, make preparations and initialize page scripts.
-   */
-  constructor() {
-    this.message = do {
-      const message = 'Home page scripts initialized on';
+    /**
+     * Cache data, make preparations and initialize page scripts.
+     */
+    constructor() {
+        // initialize after construction
+        this.init();
+    }
 
-      if (Resp.isDesk) {
-        `${message} Desktop`;
-      } else if (Resp.isTablet) {
-        `${message} Tablet`;
-      } else if (Resp.isMobile) {
-        `${message} Mobile`;
-      }
-    };
+    /**
+     * Initialize Home page scripts.
+     */
+    init() {
+        this.newsSlider = new Swiper('.swiper-news', {
+            spaceBetween: 30,
+            slidesPerView: 4,
+            loop: false,
+            loopedSlides: 1,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
 
-    // initialize after construction
-    this.init();
-  }
+        this.parntersSlider = new Swiper('.swiper-parnters', {
+            spaceBetween: 30,
+            slidesPerView: 6,
+            loop: false,
+            loopedSlides: 1,
+            navigation: {
+                nextEl: '.swiper-parnter-next',
+                prevEl: '.swiper-parnter-prev',
+            },
+        });
 
-  /**
-   * Example method.
-   */
-  example() {
-    console.log(this.message);
-  };
+        console.log('home init');
 
-  /**
-   * Initialize Home page scripts.
-   */
-  init() {
-    this.example();
-  }
+    }
 }
