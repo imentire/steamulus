@@ -1,0 +1,42 @@
+.ui-sidebar {
+  padding: 30px 40px 0 0;
+
+  &__nav {
+    border-right: 1px solid $link-water;
+  }
+}
+
+.ui-sidebar-nav {
+  font-family: $font-condensed;
+  letter-spacing: 0.01px;
+
+  &__block {
+    list-style: none;
+    font-size: 18px;
+    line-height: 24px;
+
+  }
+
+  &__item {
+    color: $dark-blue;
+    text-decoration: none;
+    background: url('../images/point.png') 0% 50% no-repeat;
+    padding-left: 18px;
+  }
+
+  &__links {
+    padding: 18px 0 22px 18px;
+  }
+
+  &__link {
+    color: $orange;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    display: block;
+  }
+
+  &__link + &__link {
+    padding-top: 10px;
+  }
+}

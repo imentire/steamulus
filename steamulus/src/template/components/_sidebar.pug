@@ -1,0 +1,72 @@
+-
+    var menus = {
+        about: [
+            {
+                url: 'program',
+                title: 'Программа',
+                links: [
+                    'Цели',
+                    'Задачи',
+                    'График',
+                    'Основные проекты и мероприятия'
+                ]
+            },
+            {
+                url: 'members',
+                title: 'Участники',
+                links: [
+                    'Площадки (школы, вузы)',
+                    'Партнеры'
+                ]
+            },
+            {
+                url: 'program-documents',
+                title: 'Документы программы',
+                links: [
+                    'Регламенты и инструкции'
+                ]
+            },
+            {
+                url: 'methodology-of-work',
+                title: 'Методология работы',
+                links: [
+                    'Проект: определение, классификация',
+                    'Критерии оценки',
+                    'Проектная деятельности',
+                    'Глоссарий'
+                ]
+            },
+            {
+                url: 'activities',
+                title: 'Активности',
+                links: [
+                    'Проектный клуб',
+                    'Интенсивы',
+                    'Мероприятия'
+                ]
+            }
+        ],
+        materials: [
+            {
+                url: 'materials',
+                title: 'Материалы',
+                links: [
+                    'Теория',
+                    'Практика'
+                ]
+            }
+        ]
+    }
+
+mixin sidebar(menu)
+    aside.ui-sidebar
+        nav.ui-sidebar__nav
+            if menus[menu].length > 0
+                ul.ui-sidebar-nav
+                each item in menus[menu]
+                    li.ui-sidebar-nav__block
+                        a.ui-sidebar-nav__item(href=item.url)= item.title
+                        .ui-sidebar-nav__links
+                            if item.links.length > 0
+                                each link in item.links
+                                    a.ui-sidebar-nav__link(href="#")= link
