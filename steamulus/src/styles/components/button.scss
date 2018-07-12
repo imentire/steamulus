@@ -26,4 +26,23 @@
       tansition: all .3s linear;
     }
   }
+
+  &--orange {
+    background: $orange;
+    color: white;
+
+    &:hover {
+      background: $dark-blue;
+    }
+  }
+
+  &--white-orange {
+    border: 2px solid $orange;
+    color: $orange;
+
+    &:hover {
+      border: 2px solid $dark-blue;
+      color: $dark-blue;
+    }
+  }
 }

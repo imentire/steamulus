@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b29e3f7d-b843-4253-8397-98ad54211101" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/steamulus/src/styles/components/sidebar.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/steamulus/src/styles/pages/about.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/steamulus/src/template/pages/about.pug" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/styles/components/button.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/components/button.scss" />
       <change beforePath="$PROJECT_DIR$/steamulus/src/styles/components/common.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/components/common.scss" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/styles/components/heading.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/components/heading.scss" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/styles/components/sidebar.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/components/sidebar.scss" />
       <change beforePath="$PROJECT_DIR$/steamulus/src/styles/index.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/index.scss" />
-      <change beforePath="$PROJECT_DIR$/steamulus/src/styles/pages/home.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/pages/home.scss" />
-      <change beforePath="$PROJECT_DIR$/steamulus/src/styles/partials/_variables.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/partials/_variables.scss" />
-      <change beforePath="$PROJECT_DIR$/steamulus/src/template/pages/index.pug" afterPath="$PROJECT_DIR$/steamulus/src/template/pages/index.pug" />
-      <change beforePath="$PROJECT_DIR$/steamulus/www/index.html" afterPath="$PROJECT_DIR$/steamulus/www/index.html" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/styles/partials/_svg.scss" afterPath="$PROJECT_DIR$/steamulus/src/styles/partials/_svg.scss" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/svg/vintage-logo.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/template/components/_footer.pug" afterPath="$PROJECT_DIR$/steamulus/src/template/components/_footer.pug" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/template/pages/about.pug" afterPath="$PROJECT_DIR$/steamulus/src/template/pages/about.pug" />
+      <change beforePath="$PROJECT_DIR$/steamulus/src/template/partials/_sprite.svg" afterPath="$PROJECT_DIR$/steamulus/src/template/partials/_sprite.svg" />
+      <change beforePath="$PROJECT_DIR$/steamulus/www/about.html" afterPath="$PROJECT_DIR$/steamulus/www/about.html" />
+      <change beforePath="$PROJECT_DIR$/steamulus/www/home.html" afterPath="$PROJECT_DIR$/steamulus/www/home.html" />
       <change beforePath="$PROJECT_DIR$/steamulus/www/static/css/index.css" afterPath="$PROJECT_DIR$/steamulus/www/static/css/index.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,31 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/steamulus/src/template/pages/home.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_header.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/steamulus/src/template/components/_header.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="about.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/steamulus/src/template/pages/about.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="510">
+              <caret line="30" column="79" lean-forward="false" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/steamulus/src/template/pages/home.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="75" column="29" lean-forward="false" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -56,18 +49,28 @@
       <file leaf-file-name="common.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/common.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="120" column="19" lean-forward="false" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="38" />
+            <state relative-caret-position="526">
+              <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_achievement.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/steamulus/src/template/components/_achievement.pug">
+      <file leaf-file-name="button.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/button.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="407">
+              <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="heading.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/heading.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -83,31 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sidebar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/sidebar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/steamulus/src/styles/partials/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/steamulus/src/styles/pages/about.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -117,7 +100,17 @@
         <entry file="file://$PROJECT_DIR$/steamulus/src/styles/index.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/steamulus/src/styles/partials/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -137,17 +130,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/steamulus/src/styles/components/achievement-cart.scss" />
-        <option value="$PROJECT_DIR$/steamulus/src/styles/components/button.scss" />
         <option value="$PROJECT_DIR$/steamulus/src/js/pages/Home.js" />
         <option value="$PROJECT_DIR$/steamulus/src/template/pages/home.pug" />
         <option value="$PROJECT_DIR$/steamulus/src/template/pages/index.pug" />
         <option value="$PROJECT_DIR$/steamulus/src/styles/pages/home.scss" />
-        <option value="$PROJECT_DIR$/steamulus/src/template/pages/about.pug" />
-        <option value="$PROJECT_DIR$/steamulus/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/steamulus/src/styles/partials/_variables.scss" />
-        <option value="$PROJECT_DIR$/steamulus/src/styles/components/common.scss" />
         <option value="$PROJECT_DIR$/steamulus/src/template/components/_sidebar.pug" />
+        <option value="$PROJECT_DIR$/steamulus/src/styles/index.scss" />
         <option value="$PROJECT_DIR$/steamulus/src/styles/components/sidebar.scss" />
+        <option value="$PROJECT_DIR$/steamulus/src/template/components/_footer.pug" />
+        <option value="$PROJECT_DIR$/steamulus/src/styles/components/button.scss" />
+        <option value="$PROJECT_DIR$/steamulus/src/template/pages/about.pug" />
+        <option value="$PROJECT_DIR$/steamulus/src/styles/components/common.scss" />
+        <option value="$PROJECT_DIR$/steamulus/src/styles/components/heading.scss" />
       </list>
     </option>
   </component>
@@ -206,13 +201,6 @@
               <item name="steamulus" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="steamulus" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="steamulus" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steamulus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="steamulus" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -253,6 +241,13 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="steamulus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="steamulus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="steamulus" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="svg" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="steamulus" type="b2602c69:ProjectViewProjectNode" />
@@ -325,12 +320,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531387779805</updated>
-      <workItem from="1531387781162" duration="17472000" />
+      <workItem from="1531387781162" duration="21550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17472000" />
+    <option name="totallyTimeSpent" value="21550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -367,14 +362,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/button.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/achievement-cart.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -398,14 +385,6 @@
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steamulus/src/template/components/_footer.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -441,54 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/steamulus/src/template/components/_header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steamulus/src/template/pages/home.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steamulus/src/template/pages/about.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/partials/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/common.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="120" column="19" lean-forward="false" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/steamulus/src/template/components/_sidebar.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -497,10 +428,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/sidebar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/template/components/_header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/template/components/_footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/template/pages/home.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="75" column="29" lean-forward="false" selection-start-line="75" selection-start-column="29" selection-end-line="75" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/partials/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/template/pages/about.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="79" lean-forward="false" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="145" column="19" lean-forward="false" selection-start-line="145" selection-start-column="19" selection-end-line="145" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/steamulus/src/styles/components/heading.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding />
         </state>
       </provider>

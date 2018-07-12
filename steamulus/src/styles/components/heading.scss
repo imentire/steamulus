@@ -6,9 +6,44 @@
     color: $dark-blue;
   }
 
+  &--condensed {
+    font-family: $font-condensed;
+  }
+
+  &--orange {
+    color: $orange;
+  }
+
+  &--point {
+    background: url('../images/point_n.png') 0% 4px no-repeat;
+    padding-left: 22px;
+  }
+
   &--lvl1 {
     font-size: 40px;
     letter-spacing: 0.4px;
     font-weight: 500;
+  }
+
+  &--lvl2 {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 700;
+    letter-spacing: 0.01px;
+  }
+
+  &--lvl3 {
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: 0.05px;
+    font-weight: 700;
+  }
+
+  &--lvl4 {
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.01px;
+    font-weight: 700;
+    padding: 24px 0;
   }
 }

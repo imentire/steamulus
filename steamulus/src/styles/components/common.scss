@@ -76,7 +76,6 @@ body {
   display: flex;
 
   &__item {
-    font-size: 0;
 
     & + & {
       margin-left: 15px;
@@ -129,4 +128,20 @@ body {
 
 .ui-page {
   padding: 50px 0 115px;
+
+  &__section {
+    padding-top: 50px;
+  }
+}
+
+p {
+  font-family: $font-default;
+  font-size: 15px;
+  line-height: 24px;
+  font-variant: small-caps;
+  color: $dark-grey;
+}
+
+p + p {
+  padding-top: 26px;
 }
