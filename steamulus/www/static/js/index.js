@@ -467,19 +467,19 @@ var Home = function () {
                 loop: false,
                 loopedSlides: 1,
                 navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev'
+                    nextEl: '.swiper-news-next',
+                    prevEl: '.swiper-news-prev'
                 }
             });
 
-            this.parntersSlider = new _swiper2.default('.swiper-parnters', {
+            this.parntersSlider = new _swiper2.default('.swiper-partners', {
                 spaceBetween: 30,
                 slidesPerView: 6,
                 loop: false,
                 loopedSlides: 1,
                 navigation: {
-                    nextEl: '.swiper-parnter-next',
-                    prevEl: '.swiper-parnter-prev'
+                    nextEl: '.swiper-partner-next',
+                    prevEl: '.swiper-partner-prev'
                 }
             });
 

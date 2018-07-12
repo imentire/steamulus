@@ -63,5 +63,84 @@
   &__content {
     padding: 26px 20px;
     background: white;
+
+    a {
+      color: $orange;
+      text-decoration: none;
+    }
+  }
+}
+
+.ui-achievements {
+  margin-top: -90px;
+}
+
+.ui-home-partners {
+  padding: 55px 0 50px;
+  background: white;
+
+  &__heading {
+    padding-bottom: 50px;
+  }
+}
+
+.ui-partner-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $white-smoke;
+  min-height: 70px;
+}
+
+.ui-about-project {
+  padding-bottom: 90px;
+
+  &__img {
+    padding-left: 90px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__text {
+    font-family: $font-condensed;
+    font-size: 28px;
+    line-height: 40px;
+    color: $dark-blue;
+    letter-spacing: 0.1px;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.ui-types-of-projects {
+  padding: 90px 0;
+}
+
+.ui-type-project-cart {
+  display: flex;
+
+  &--left {
+    justify-content: flex-start;
+  }
+
+  &--center {
+    justify-content: center;
+  }
+
+  &--right {
+    justify-content: flex-end;
+  }
+
+  &__text {
+    font-family: $font-condensed;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05px;
+    color: $orange;
+    padding-left: 20px;
   }
 }

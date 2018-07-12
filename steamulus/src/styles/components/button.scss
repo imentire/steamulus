@@ -4,6 +4,14 @@
   padding: 10px 22px;
   font-variant: small-caps;
   display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  overflow: hidden;
+  tansition: all .3s linear;
 
   &--gradient {
     background: linear-gradient(to right, $orange, $yellow);
@@ -12,5 +20,10 @@
     letter-spacing: 0.05px;
     padding: 15px 57px;
     font-weight: 500;
+
+    &:hover {
+      background: $dark-blue;
+      tansition: all .3s linear;
+    }
   }
 }

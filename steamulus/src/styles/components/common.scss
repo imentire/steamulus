@@ -102,3 +102,27 @@ body {
     }
   }
 }
+
+.swiper-prev {
+  width: 16px;
+  height: 30px;
+  background: url('../images/left.png') 50% 50% no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+  transform: translate(0, -50%);
+}
+
+.swiper-next {
+  width: 16px;
+  height: 30px;
+  background: url('../images/right.png') 50% 50% no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+  transform: translate(0, -50%);
+}

@@ -26,13 +26,44 @@ block main
                         .container
                             .row
                                 .col-12.col-md-6.col-lg-3.pl-0.pr-0
-                                    +achievement(487, 'УЧАСТНИКОВ', 'test.png')
+                                    +achievement(487, 'УЧАСТНИКОВ', 'participant.png')
                                 .col-12.col-md-6.col-lg-3.pl-0.pr-0
-                                    +achievement(441, 'ПРОЕКТ', 'test.png')
+                                    +achievement(441, 'ПРОЕКТ', 'projects.png')
                                 .col-12.col-md-6.col-lg-3.pl-0.pr-0
-                                    +achievement(104, 'ПЛОЩАДКИ', 'test.png')
+                                    +achievement(104, 'ПЛОЩАДКИ', 'sites.png')
                                 .col-12.col-md-6.col-lg-3.pl-0.pr-0
-                                    +achievement(49, 'ЭКСПЕРТОВ', 'test.png')
+                                    +achievement(49, 'ЭКСПЕРТОВ', 'experts.png')
+        .ui-types-of-projects
+            .container
+                .row
+                    .col-12.col-md-6.col-lg-3
+                        .ui-type-project-cart.ui-type-project-cart--left
+                            .ui-type-project-cart__img
+                                img(src="/static/images/iss_project.png", alt="")
+                            .ui-type-project-cart__text Исследовательские проекты
+                    .col-12.col-md-6.col-lg-3
+                        .ui-type-project-cart.ui-type-project-cart--center
+                            .ui-type-project-cart__img
+                                img(src="/static/images/art_project.png", alt="")
+                            .ui-type-project-cart__text Арт-проекты
+                    .col-12.col-md-6.col-lg-3
+                        .ui-type-project-cart.ui-type-project-cart--center
+                            .ui-type-project-cart__img
+                                img(src="/static/images/org_project.png", alt="")
+                            .ui-type-project-cart__text
+                                | Организационные
+                                br
+                                | проекты
+                    .col-12.col-md-6.col-lg-3
+                        .ui-type-project-cart.ui-type-project-cart--right
+                            .ui-type-project-cart__img
+                                img(src="/static/images/inj_project.png", alt="")
+                            .ui-type-project-cart__text
+                                | Инженерно-
+                                br
+                                | конструкторские
+                                br
+                                | проекты
         .ui-home-news
             .container
                 .row
@@ -46,47 +77,72 @@ block main
                                     .ui-news-cart
                                         .ui-news-cart__header(style="background-image: url('/static/images/news/news-1.png')")
                                             .ui-news-cart__date 28 МАЯ 2018
-                                        .ui-news-cart__content С 1 июня по 16 сентября старшеклассники смогут принять участие в конкурсе "Ученые будущего". Конкурс направлен на поддержку одаренных детей, развитие у школьников интереса к изучению точных, естественных и инженерных наук, создание условий для интеллектуального развития учащихся, распространение и популяризацию научных знаний и повышение педагогической квалификации преподавателей России и других стран.
+                                        .ui-news-cart__content
+                                            | С 1 июня по 16 сентября старшеклассники смогут принять участие в конкурсе
+                                            a(href="#") "Ученые будущего"
+                                            | . Конкурс направлен на поддержку одаренных детей, развитие у школьников интереса к изучению точных, естественных и инженерных наук, создание условий для интеллектуального развития учащихся, распространение и популяризацию научных знаний и повышение педагогической квалификации преподавателей России и других стран.
                                 .swiper-slide
                                     .ui-news-cart
                                         .ui-news-cart__header(style="background-image: url('/static/images/news/news-2.png')")
                                             .ui-news-cart__date 28 МАЯ 2018
-                                        .ui-news-cart__content Сегодня, в День защиты детей Проектное движение "Реактор" объявляет конкурс “Реактивное лето”! Для участия в конкурсе “Реактивное лето” нужно придумать интересную, яркую, прорывную идею, зарегистрировать ее на сайте и в течение 3 месяцев вести видео-дневник, фиксируя основные этапы работы над своим проектом. Самые яркие и креативные проекты получат призы: стабилизаторы и экшн-камеры!
+                                        .ui-news-cart__content
+                                            | Сегодня, в День защиты детей Проектное движение "Реактор" объявляет конкурс
+                                            a(href="#") “Реактивное лето”
+                                            | ! Для участия в конкурсе “Реактивное лето” нужно придумать интересную, яркую, прорывную идею, зарегистрировать ее на сайте и в течение 3 месяцев вести видео-дневник, фиксируя основные этапы работы над своим проектом. Самые яркие и креативные проекты получат призы: стабилизаторы и экшн-камеры!
                                 .swiper-slide
                                     .ui-news-cart
                                         .ui-news-cart__header(style="background-image: url('/static/images/news/news-3.png')")
                                             .ui-news-cart__date 28 МАЯ 2018
-                                        .ui-news-cart__content Сбербанк объявил об открытии в России школы программирования для студентов в возрасте от 18 до 30 лет. Срок обучения в "Школе 21" составит от полутора до четырех лет. Обучение будет вестись по уникальной французской методике, которая в игровой форме позволяет каждому учащемуся строить свою индивидуальную, адаптивную траекторию обучения.
+                                        .ui-news-cart__content
+                                            | Сбербанк объявил об открытии в России школы программирования для студентов в возрасте от 18 до 30 лет. Срок обучения в "
+                                            a(href="#") Школе 21
+                                            | " составит от полутора до четырех лет. Обучение будет вестись по уникальной французской методике, которая в игровой форме позволяет каждому учащемуся строить свою индивидуальную, адаптивную траекторию обучения.
                                 .swiper-slide
                                     .ui-news-cart
                                         .ui-news-cart__header(style="background-image: url('/static/images/news/news-4.png')")
                                             .ui-news-cart__date 28 МАЯ 2018
-                                        .ui-news-cart__content Сбербанк объявил об открытии в России школы программирования для студентов в возрасте от 18 до 30 лет. Срок обучения в "Школе 21" составит от полутора до четырех лет. Обучение будет вестись по уникальной французской методике, которая в игровой форме позволяет каждому учащемуся строить свою индивидуальную, адаптивную траекторию обучения.
-                            .swiper-prev
-                            .swiper-next
+                                        .ui-news-cart__content
+                                            | 31 мая и 1 июня в "Сколкове" состоится крупнейшее в России мероприятие для технологических предпринимателей -
+                                            a(href="#") Startup Village
+                                            | . В этом году главной темой мероприятия станет "суперсапиенс" - как технологии меняют человека в физическом и социальном плане. Среди его участников - инноваторы, венчурные инвесторы, представители индустриальных компаний.
+                        .swiper-prev.swiper-news-prev
+                        .swiper-next.swiper-news-next
+        .ui-about-project
+            .container
+                .row.align-items-center
+                    .col-12.col-lg-3
+                        .ui-about-project__img
+                            img(src="/static/images/about-project.png", alt="")
+                    .col-12.col-lg-9
+                        .ui-about-project__text
+                            span Стимулус
+                            | &nbsp;- это проектная лаборатория, которая позволяет школьникам реализовывать свои идеи, под присмотром кураторов и экспертов, которые помогут вам в процессе работы. Благодаря этому, вы не только сможете самореализоваться, но и заявите о себе.
         .ui-home-partners
             .container
                 .row
                     .col-12
                         .ui-home-partners__heading.ui-heading.ui-heading--default.ui-heading--lvl1 Партнеры
-                .row
+                .row.align-items-center
                     .col-12
                         .swiper-container.swiper-partners
                             .swiper-wrapper
                                 .swiper-slide
                                     .ui-partner-cart
-                                        img(src="", alt="")
+                                        img(src="/static/images/partners/reebok.png", alt="")
                                 .swiper-slide
                                     .ui-partner-cart
-                                        img(src="", alt="")
+                                        img(src="/static/images/partners/philips.png", alt="")
                                 .swiper-slide
                                     .ui-partner-cart
-                                        img(src="", alt="")
+                                        img(src="/static/images/partners/sony.png", alt="")
                                 .swiper-slide
                                     .ui-partner-cart
-                                        img(src="", alt="")
+                                        img(src="/static/images/partners/loreal.png", alt="")
                                 .swiper-slide
                                     .ui-partner-cart
-                                        img(src="", alt="")
-                            .swiper-partner-prev
-                            .swiper-partner-next
+                                        img(src="/static/images/partners/sberbank.png", alt="")
+                                .swiper-slide
+                                    .ui-partner-cart
+                                        img(src="/static/images/partners/tatneft.png", alt="")
+                        .swiper-prev.swiper-partner-prev
+                        .swiper-next.swiper-partner-next
