@@ -29,7 +29,7 @@ a {
     width: 64px;
     height: 64px;
     border: 4px solid transparent;
-    background-image: linear-gradient(white, white), linear-gradient(135deg, #ffca26 0, #ff8558 50%, #ffca26 100%);
+    background-image: linear-gradient(white, white), linear-gradient(135deg, $yellow 0, $yellow 20%, $orange 50%, $yellow 70%, $yellow 100%);
     border-radius: 64px;
     position: relative;
     background-origin: border-box;
@@ -45,18 +45,18 @@ a {
     color: $orange;
     font-weight: 700;
     position: relative;
+  }
 
-    &--day {
-      position: absolute;
-      top: -12px;
-      left: 7px;
-    }
+  &__date-day {
+    position: absolute;
+    top: -12px;
+    left: 7px;
+  }
 
-    &--year {
-      position: absolute;
-      bottom: -12px;
-      right: 5px;
-    }
+  &__date-year {
+    position: absolute;
+    bottom: -12px;
+    right: 5px;
   }
 
   &__content {
