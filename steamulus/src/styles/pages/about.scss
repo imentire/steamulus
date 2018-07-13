@@ -1,0 +1,75 @@
+a {
+  text-decoration: none;
+  color: $navy-blue;
+}
+
+.ui-blue-cart {
+  background: $dark-blue;
+  text-align: center;
+  font-family: $font-default;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.01px;
+  color: white;
+  font-variant: small-caps;
+  padding: 20px 30px;
+}
+
+.ui-schedule-cart {
+  display: flex;
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.01px;
+  font-variant: small-caps;
+
+  &__date {
+    width: 64px;
+    height: 64px;
+    border: 4px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(135deg, #ffca26 0, #ff8558 50%, #ffca26 100%);
+    border-radius: 64px;
+    position: relative;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: $font-condensed;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.05px;
+    color: $orange;
+    font-weight: 700;
+    position: relative;
+
+    &--day {
+      position: absolute;
+      top: -12px;
+      left: 7px;
+    }
+
+    &--year {
+      position: absolute;
+      bottom: -12px;
+      right: 5px;
+    }
+  }
+
+  &__content {
+    flex: 1;
+    padding-left: 17px;
+  }
+
+  &__title {
+    font-family: $font-condensed;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-family: $font-default;
+  }
+}
