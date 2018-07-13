@@ -84,25 +84,6 @@
   }
 }
 
-.ui-partner-cart {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: $white-smoke;
-  min-height: 70px;
-  cursor: pointer;
-  img {
-    max-width: 100%;
-    filter: contrast(0) opacity(.8);
-    transition: filter .17s ease-in-out;
-  }
-  &:hover {
-    img {
-      max-width: 100%;
-      filter: contrast(1) opacity(1)
-    }
-  }
-}
 
 .ui-about-project {
   padding-bottom: 90px;

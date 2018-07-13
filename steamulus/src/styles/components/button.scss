@@ -1,7 +1,7 @@
 .ui-button {
   font-family: $font-condensed;
   font-size: 18px;
-  padding: 10px 22px;
+  padding: 8px 22px;
   font-variant: small-caps;
   display: inline-block;
   vertical-align: middle;
@@ -12,6 +12,10 @@
   outline: none;
   overflow: hidden;
   tansition: all .3s linear;
+
+  & + & {
+    margin-left: 15px;
+  }
 
   &--gradient {
     background: linear-gradient(to right, $orange, $yellow);
@@ -39,6 +43,7 @@
   &--white-orange {
     border: 2px solid $orange;
     color: $orange;
+    padding: 6px 22px;
 
     &:hover {
       border: 2px solid $dark-blue;
