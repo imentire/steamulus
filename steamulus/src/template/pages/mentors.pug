@@ -1,0 +1,37 @@
+extends ../extend/default
+
+block variables
+    - var title = 'Mentors page';
+
+block main
+    main.ui-page(data-page='mentors')
+        .container
+            .row
+                .col-12.col-md-8.col-lg-4.offset-md-2.offset-lg-4
+                    .ui-search
+                        .ui-search__content
+                            input.ui-search__input(placeholder="Поиск наставников ...")
+                            button.ui-search__button
+                                img(src="/static/images/search_icon.png")
+                        .ui-search__filters
+                            .ui-search__filter Роль
+            .row
+                .col-12
+                    .ui-heading.ui-heading--default.ui-heading--lvl2.ui-heading--center Наставники
+            .row
+                .col-12
+                    .ui-projects-button
+                        a.ui-button.ui-button--orange Стать наставником
+            .row
+                .col-12.col-md-6.col-lg-3
+                    .ui-mentor-cart
+                        .ui-mentor-cart__header(style="background-image: url('/static/images/mentors/mt1.png')")
+                            .ui-mentor-cart__label
+                        .ui-mentor-cart__content
+                            a.ui-mentor-cart__heading(href="#") 1
+                            .ui-mentor-cart__address 1
+
+            .row
+                .col-12
+                    .ui-projects-more
+                        a.ui-projects-more__link(href="#") Показать еще...

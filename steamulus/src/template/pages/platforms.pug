@@ -1,0 +1,37 @@
+extends ../extend/default
+
+block variables
+    - var title = 'Platforms page';
+
+block main
+    main.ui-page(data-page='platforms')
+        .container
+            .row
+                .col-12.col-md-8.col-lg-4.offset-md-2.offset-lg-4
+                    .ui-search
+                        .ui-search__content
+                            input.ui-search__input(placeholder="Поиск площадок ...")
+                            button.ui-search__button
+                                img(src="/static/images/search_icon.png")
+                        .ui-search__filters
+                            .ui-search__filter Регион
+            .row
+                .col-12
+                    .ui-heading.ui-heading--default.ui-heading--lvl2.ui-heading--center Площадки
+            .row
+                .col-12
+                    .ui-projects-button
+                        a.ui-button.ui-button--orange Стать площадкой
+            .row
+                .col-12.col-md-6.col-lg-3
+                    .ui-platform-cart
+                        .ui-platform-cart__header(style="background-image: url('/static/images/platforms/pl1.png')")
+                        .ui-platform-cart__content
+                            .ui-platform-cart__heading(href="#") 0
+                            .ui-platform-cart__phone 1
+                            .ui-platform-cart__address 2
+                            .ui-platform-cart__video Детский Технопарк «Москва»
+            .row
+                .col-12
+                    .ui-projects-more
+                        a.ui-projects-more__link(href="#") Показать еще...

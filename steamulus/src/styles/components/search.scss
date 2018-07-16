@@ -1,0 +1,74 @@
+.ui-search {
+    display: block;
+    margin-bottom: 50px;
+
+    &__content {
+        display: flex;
+    }
+
+    &__input {
+        letter-spacing: 0.2px;
+        font-size: 16px;
+        font-family: $font-condensed;
+        color: $dark-blue;
+        padding: 9px 13px;
+        border: 2px solid transparent;
+        border-image: linear-gradient(to right, $yellow, $orange);
+        border-image-slice: 1;
+        flex: 1;
+
+        &::placeholder {
+            color: $light-gray;
+        }
+
+        &:focus,
+        &:hover {
+            border-color: $dark-blue;
+            border-image: none;
+        }
+
+        &:hover + .ui-search__button {
+            background: $dark-blue;
+        }
+    }
+
+    &__button {
+        border: 0;
+        background: linear-gradient(to left, $yellow, $orange);
+        width: 40px;
+        padding: 0;
+        outline: 0;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background: $dark-blue;
+        }
+    }
+
+    &__filters {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    &__filter {
+        font-family: $font-condensed;
+        color: $orange;
+        font-size: 18px;
+        background: url("../images/down.png") no-repeat center right;
+        padding-right: 22px;
+        cursor: pointer;
+
+        &:hover {
+            background-image: url("../images/down_hover.png");
+            color: $dark-blue;
+        }
+
+        & + & {
+            margin-left: 30px;
+        }
+    }
+}

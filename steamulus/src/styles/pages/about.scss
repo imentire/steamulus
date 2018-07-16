@@ -13,6 +13,13 @@ a {
   color: white;
   font-variant: small-caps;
   padding: 20px 30px;
+  margin-bottom: 30px;
+  height: calc(100% - 30px);
+
+  &--mt-30
+    {
+      margin-top: 30px;
+    }
 }
 
 .ui-schedule-cart {
@@ -96,7 +103,7 @@ a {
 }
 
 .ui-about-button {
-  padding-top: 30px;
+  padding: 30px 0;
 }
 
 .ui-document-cart {
@@ -104,6 +111,14 @@ a {
   display: flex;
   align-items: center;
   padding: 20px;
+  border: 1px solid white;
+  transition: border-color .17s ease-in-out;
+  margin-bottom: 30px;
+  height: calc(100% - 30px);
+
+  &:hover {
+      border-color: $orange;
+  }
 
   &__title {
     padding-left: 15px;
@@ -114,4 +129,54 @@ a {
     color: $dark-grey;
     letter-spacing: 0.01px;
   }
+}
+
+.ui-glossary {
+    margin-top: 24px;
+
+    &__heading {
+        font-family: $font-default;
+        font-size: 15px;
+        line-height: 28px;
+        font-variant: small-caps;
+        letter-spacing: 0.2px;
+        color: $orange;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &__content {
+        display: none;
+        padding: 20px;
+        background: white;
+        font-family: $font-default;
+        font-size: 15px;
+        line-height: 28px;
+        font-variant: small-caps;
+        letter-spacing: 0.2px;
+        color: $gray;
+    }
+
+    &__item.opened {
+        .ui-glossary {
+            &__heading {
+                color: $dark-blue;
+            }
+            &__content {
+                display: block;
+            }
+        }
+    }
+}
+.ui-timetable {
+    margin-bottom: 30px;
+
+    &__item {
+        letter-spacing: 0.2px;
+        font-family: $font-default;
+        font-size: 15px;
+        line-height: 26px;
+        font-variant: small-caps;
+        color: $gray;
+    }
 }

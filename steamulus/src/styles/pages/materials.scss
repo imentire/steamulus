@@ -1,0 +1,25 @@
+.ui-materials {
+    display: block;
+
+    &__item {
+        display: block;
+
+        & + & {
+            margin-top: 16px;
+        }
+    }
+
+    &__link {
+        color: $gray;
+        font-size: 16px;
+        font-variant: small-caps;
+        padding-left: 30px;
+        background: url("../images/document.png") no-repeat 10px 0;
+        display: inline-block;
+
+        &:hover {
+            color: $dark-blue;
+            background-image: url("../images/document_hover.png");
+        }
+    }
+}

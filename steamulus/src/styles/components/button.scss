@@ -11,7 +11,7 @@
   text-decoration: none;
   outline: none;
   overflow: hidden;
-  tansition: all .3s linear;
+  transition: all .17s ease-in-out;
 
   & + & {
     margin-left: 15px;
@@ -27,7 +27,6 @@
 
     &:hover {
       background: $dark-blue;
-      tansition: all .3s linear;
     }
   }
 
@@ -44,9 +43,10 @@
     border: 2px solid $orange;
     color: $orange;
     padding: 6px 22px;
+    transition: border-color .17s ease-in-out, color .17s ease-in-out;
 
     &:hover {
-      border: 2px solid $dark-blue;
+      border-color: $dark-blue;
       color: $dark-blue;
     }
   }

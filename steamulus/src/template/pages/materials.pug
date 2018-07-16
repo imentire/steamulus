@@ -1,0 +1,49 @@
+extends ../extend/default
+
+block variables
+    - var title = 'Materials page';
+
+block main
+    main.ui-page(data-page='materials')
+        .container
+            .row
+                .col-12.col-lg-3
+                    +sidebar('materials')
+                .col-12.col-lg-9.pl-0.pr-0
+                    .container
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--default.ui-heading--lvl2 Материалы
+                    .container.ui-page__section#materials
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Теория
+                        .row
+                            .col-12
+                                .ui-materials
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") «Школа наставников» Сколково. Материалы.
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Лазарев В.С. Проектная деятельность в школе.
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Яковлева Н.Ф. Проектная деятельность в образовательном учреждении. Учебное пособие.
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Асмолов А. Г. (ред.) Формирование универсальных учебных действий в основной школе: от действия к мысли. Система заданий: пособие для учителя. М.: Просвещение, 2010. (docx).
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") «Школа наставников» Сколково. Материалы.
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Лазарев В. С. Проектная деятельность в школе: учебное пособие для учащихся 7–11-х классов. Сургут: РИОСу РГПУ, 2014а. (pdf).
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Лазарев В. С. Проектная деятельность в школе: учебное пособие для учащихся 7–11-х классов. Сургут: РИОСу РГПУ, 2014а. (pdf).
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Практика
+                        .row
+                            .col-12
+                                .ui-materials
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Организация проектной деятельности на уроках химии
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Организация проектной деятельности на уроках химии
+                                    .ui-materials__item
+                                        a.ui-materials__link(href="#") Организация проектной деятельности на уроках химии

@@ -1,0 +1,83 @@
+.ui-project {
+    margin-bottom: 50px;
+
+    &__header {
+        position: relative;
+        padding-bottom: 66.5%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: $link-water;
+    }
+
+    &__label {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        font-family: $font-condensed;
+        background: $dark-blue;
+        color: white;
+        text-transform: uppercase;
+        padding: 4px 13px;
+        opacity: .9;
+    }
+
+    &__link {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-size: 0;
+    }
+
+    &__content {
+        background: white;
+        padding: 25px 20px;
+    }
+
+    &__heading {
+        text-decoration: none;
+        color: $dark-blue;
+        font-family: $font-condensed;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: .2px;
+    }
+
+    &__author {
+        color: $gray;
+        font-family: $font-condensed;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: .2px;
+        margin-top: 20px;
+        background: url("../images/author.png") no-repeat left center;
+        padding-left: 33px;
+    }
+
+    &__type {
+        color: $gray;
+        font-family: $font-condensed;
+        font-size: 18px;
+        letter-spacing: .2px;
+        margin-top: 15px;
+        line-height: 24px;
+        background: url("../images/stupen.png") no-repeat left center;
+        padding-left: 33px;
+    }
+
+    &__address {
+        color: $gray;
+        font-family: $font-condensed;
+        font-size: 18px;
+        letter-spacing: .2px;
+        margin-top: 15px;
+        line-height: 24px;
+        background: url("../images/map.png") no-repeat left center;
+        padding-left: 33px;
+    }
+
+    &:hover {
+        outline: 1px solid $orange;
+    }
+}

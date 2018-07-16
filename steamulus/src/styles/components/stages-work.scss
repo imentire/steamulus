@@ -1,0 +1,14 @@
+.ui-stages-work {
+    display: flex;
+    align-items: center;
+
+    &__text {
+        padding-left: 10px;
+        font-family: $font-default;
+        color: $dark-grey;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: .15px;
+        font-variant: small-caps;
+    }
+}

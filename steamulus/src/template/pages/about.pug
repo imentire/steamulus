@@ -4,9 +4,7 @@ block variables
     - var title = 'About page';
 
 block main
-    main.content(data-page='about')
-
-    .ui-page
+    main.ui-page(data-page='about')
         .container
             .row
                 .col-12.col-lg-3
@@ -30,6 +28,15 @@ block main
                             .col-12
                                 .ui-heading.ui-heading--orange.ui-heading--lvl4#tasks Задачи
                         .row
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart
+                                    .ui-blue-cart__content Обеспечение доступа детей и молодежи к современному оборудованию прямого цифрового производства для реализации, проверки и коммерциализации их инновационных идей;
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart
+                                    .ui-blue-cart__content Поддержка инновационного творчества детей и молодежи, в том числе в целях профессиональной реализации и обеспечения самозанятости молодежного предпринимательства;
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart
+                                    .ui-blue-cart__content Техническая и производственная поддержка детей и молодежи, субъектов малого и среднего бизнеса, осуществляющих разработку перспективных видов продукции и технологий;
                             .col-12.col-md-6.col-lg-4
                                 .ui-blue-cart
                                     .ui-blue-cart__content Обеспечение доступа детей и молодежи к современному оборудованию прямого цифрового производства для реализации, проверки и коммерциализации их инновационных идей;
@@ -145,7 +152,7 @@ block main
                                     | &nbsp;«Кванториум» и другие структуры новой системы дополнительного образования.
                         .row
                             .col-12
-                                .ui-about-button
+                                .ui-about-button.pb-0
                                     a.ui-button.ui-button--orange Стать площадкой
                                     a.ui-button.ui-button--white-orange Все площадки
                         .row
@@ -170,7 +177,7 @@ block main
                             .col-12.col-md-6.col-lg-3
                                 .ui-partner-cart.ui-partner-cart--white
                                     img(src="/static/images/partners/tatneft.png", alt="")
-                    .container.ui-page__section#program-documents
+                    .container.ui-page__section.ui-page__section--pt-20#program-documents
                         .row
                             .col-12
                                 .ui-heading.ui-heading--default.ui-heading--lvl3.ui-heading--point Документы программы
@@ -179,32 +186,358 @@ block main
                                 .ui-heading.ui-heading--orange.ui-heading--lvl4 Регламенты и Инструкции
                         .row
                             .col-12.col-md-6.col-lg-4
-                                .ui-document-cart
+                                a.ui-document-cart(href="#")
                                     .ui-document-cart__icon
                                         img(src="/static/images/pdf.png", alt="")
                                     .ui-document-cart__title Положение программы Steamulus
                             .col-12.col-md-6.col-lg-4
-                                .ui-document-cart
+                                a.ui-document-cart(href="#")
                                     .ui-document-cart__icon
                                         img(src="/static/images/pdf.png", alt="")
                                     .ui-document-cart__title Критерии оценки проектов учавствующих в программе Steamulus
                             .col-12.col-md-6.col-lg-4
-                                .ui-document-cart
+                                a.ui-document-cart(href="#")
                                     .ui-document-cart__icon
                                         img(src="/static/images/pdf.png", alt="")
                                     .ui-document-cart__title Организационный план-график конкурса в 2018-2019  годах
                             .col-12.col-md-6.col-lg-4
-                                .ui-document-cart
+                                a.ui-document-cart(href="#")
                                     .ui-document-cart__icon
                                         img(src="/static/images/pdf.png", alt="")
                                     .ui-document-cart__title Методика подачи завки на участие проекта
                             .col-12.col-md-6.col-lg-4
-                                .ui-document-cart
+                                a.ui-document-cart(href="#")
                                     .ui-document-cart__icon
                                         img(src="/static/images/pdf.png", alt="")
                                     .ui-document-cart__title Справка о программе Steamulus
                             .col-12.col-md-6.col-lg-4
-                                .ui-document-cart
+                                a.ui-document-cart(href="#")
                                     .ui-document-cart__icon
                                         img(src="/static/images/pdf.png", alt="")
                                     .ui-document-cart__title Прайс комплекта оборудования
+                    .container.ui-page__section.ui-page__section--pt-20#methodology-work
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--default.ui-heading--lvl3.ui-heading--point Методология работы
+                        .row
+                            .col-12.col-md-6.col-lg-4
+                                .ui-methodology-cart
+                                    .ui-methodology-cart__icon
+                                        img(src="/static/images/methodology/shag-1.png" alt="")
+                                    .ui-methodology-cart__content
+                                        b Шаг 1.
+                                        span Начало работы
+                            .col-12.col-md-6.col-lg-4
+                                .ui-methodology-cart
+                                    .ui-methodology-cart__icon
+                                        img(src="/static/images/methodology/shag-2.png" alt="")
+                                    .ui-methodology-cart__content
+                                        b Шаг 2.
+                                        span Поиск решения
+                            .col-12.col-md-6.col-lg-4
+                                .ui-methodology-cart
+                                    .ui-methodology-cart__icon
+                                        img(src="/static/images/methodology/shag-3.png" alt="")
+                                    .ui-methodology-cart__content
+                                        b Шаг 3.
+                                        span Планирование
+                            .col-12.col-md-6.col-lg-4
+                                .ui-methodology-cart
+                                    .ui-methodology-cart__icon
+                                        img(src="/static/images/methodology/shag-4.png" alt="")
+                                    .ui-methodology-cart__content
+                                        b Шаг 4.
+                                        span Реализация
+                            .col-12.col-md-6.col-lg-4
+                                .ui-methodology-cart
+                                    .ui-methodology-cart__icon
+                                        img(src="/static/images/methodology/shag-5.png" alt="")
+                                    .ui-methodology-cart__content
+                                        b Шаг 5.
+                                        span Презентация
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Проект: определение, классификация
+                        .row
+                            .col-12
+                                p Проект — это специально организованная деятельность участника конкурса или проектной команды (автора, исполнителей, консультантов, сотрудников ЦМИТ), которая направлена на решение значимой проблемы и / или получение конкретного результата (в виде инновационных продуктов или уникальных изделий) в заданный промежуток времени с использованием различных ресурсов (кадровых, финансовых, материально-технических и т.д.).
+                        .row
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart.ui-blue-cart--mt-30.mb-0
+                                    .ui-blue-cart__content
+                                        b Исследовательский проект
+                                        br
+                                        span Исследование – порождение нового востребованного и употребляемого знания
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart.ui-blue-cart--mt-30.mb-0
+                                    .ui-blue-cart__content
+                                        b Инженерно-конструкторский проект
+                                        br
+                                        span Конструирование – cоздание нового инженерного продукта или технологии
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart.ui-blue-cart--mt-30.mb-0
+                                    .ui-blue-cart__content
+                                        b Организационный проект
+                                        br
+                                        span Организационное проектирование – cоздание новой практики, бизнеса, управляющей структуры
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart.ui-blue-cart--mt-30.mb-0
+                                    .ui-blue-cart__content
+                                        b Стратегический проект
+                                        br
+                                        span Стратегирование – cоздание программ, инфраструктур, отраслей
+                            .col-12.col-md-6.col-lg-4
+                                .ui-blue-cart.ui-blue-cart--mt-30.mb-0
+                                    .ui-blue-cart__content
+                                        b Арт-проект
+                                        br
+                                        span Художественное творчество – создание нового образа, восприятия, художественного продукта
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5 Характеристики проекта
+                        .row
+                            .col-12.col-md-6.col-lg-4
+                                .ui-list-item.ui-list-item--mb-30 Цель
+                            .col-12.col-md-6.col-lg-4
+                                .ui-list-item.ui-list-item--mb-30 Взаимозависимость
+                            .col-12.col-md-6.col-lg-4
+                                .ui-list-item.ui-list-item--mb-30 Назначение проекта
+                            .col-12.col-md-6.col-lg-4
+                                .ui-list-item.ui-list-item--mb-30 Зависимость
+                            .col-12.col-md-6.col-lg-4
+                                .ui-list-item.ui-list-item--mb-30 Жизненный цикл
+                            .col-12.col-md-6.col-lg-4
+                                .ui-list-item.ui-list-item--mb-30 Уникальность
+                            .col-12.col-md-6.col-lg-4
+                                .ui-list-item.ui-list-item--mb-30 Устранение противоречий
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5.pt-0 Проект должен быть
+                        .row
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Обособлен от другой деятельности;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Ограничен во времени, имеет динамичное развитие;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Направлен на новое, ориентирован на движение вперед, цель – достижение конкретного результата, успеха;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Реализует творческие и новаторские подходы;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Уникален;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Опирается на междисплинарность;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Зависит от наличия ресурсов;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Создает продукт, несет ответственность за качество;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Ориентирован на клиента и оказание услуг;
+                            .col-12
+                                .ui-list-item.ui-list-item--mb-20 Свободен от иерархических структур;
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Критерии оценок
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5.pt-0 Отборочный этап
+                        .row
+                            .col-12
+                                p Предварительная экспертная оценка заявок-проектных идей участников Конкурса осуществляется сотрудниками ЦМИТ, участвующих в Конкурсе в качестве площадок.
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5 Подготовительный этап
+                        .row
+                            .col-12
+                                p Модерация заявок проектов (предварительная проверка на соответствие требованиям Конкурса) осуществляется Оргкомитетом Конкурса совместно с приглашенными экспертами.
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5 Экспертный этап
+                        .row
+                            .col-12
+                                p Рассмотрение и оценка представленных проектов во время экспертного и очного этапов осуществляют членами жюри, входящими в региональную экспертную группу (на стадии дистанционной оценки) и экспертную комиссию (во время очного финала).
+                        .row
+                            .col-12
+                                .ui-about-button
+                                    a.ui-button.ui-button--orange Стать наставником
+                        .row
+                            .col-12
+                                p С полными критериями оценки проектов вы можете ознакомится 
+                                    a(href="") здесь
+                                    | .
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Проектная деятельности
+                        .row
+                            .col-12
+                                p Это совместная учебно-познавательная, творческая или игровая деятельность, имеющая общую цель, согласованные методы, способы деятельности, направленная на достижение общего результат. Проектная деятельность способствует развитию самостоятельности, целеустремленности, ответственности, настойчивости, толерантности, инициативности, в процессе работы над проектом участники расширяют свою социальную практику, адаптируются к современным условиям жизни, начинают применять для решения поставленных задач современные технологии.
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5 Этапы работы над проектом
+                        .row
+                            .col-12.col-md-6.col-lg-3
+                                .ui-stages-work
+                                    .ui-stages-work__icon
+                                        img(src="/static/images/stages-work/zamysel.png" alt="")
+                                    .ui-stages-work__text Замысел
+                            .col-12.col-md-6.col-lg-3
+                                .ui-stages-work
+                                    .ui-stages-work__icon
+                                        img(src="/static/images/stages-work/razrabotka.png" alt="")
+                                    .ui-stages-work__text Разаработка
+                            .col-12.col-md-6.col-lg-3
+                                .ui-stages-work
+                                    .ui-stages-work__icon
+                                        img(src="/static/images/stages-work/vnedrenie.png" alt="")
+                                    .ui-stages-work__text Внедрение
+                            .col-12.col-md-6.col-lg-3
+                                .ui-stages-work
+                                    .ui-stages-work__icon
+                                        img(src="/static/images/stages-work/ekspluatacija.png" alt="")
+                                    .ui-stages-work__text Эксплуатация
+                        .row
+                            .col-12
+                                .ui-about-button
+                                    a.ui-button.ui-button--orange Заявить проект
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Глоссарий
+                        .row
+                            .col-12
+                                p Основные термины, используемые в конкурсной документации (Положение, Критерии оценки, Инструкции и пр.).
+                        .row
+                            .col-12
+                                .ui-glossary
+                                    .ui-glossary__item.opened
+                                        .ui-glossary__heading #{'>'} Автор / лидер проекта
+                                        .ui-glossary__content Автор / лидер проекта — участник конкурса, который принял непосредственное участие в формировании, проработке и реализации идеи проекта. Участие в работе подтверждается компетенциями, которые автор получил при решении конкретных задач как исполнитель. В зависимости от возрастной группы лидера проекта происходит отнесение его к той или иной мастерской.
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Детский технопарк
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Жюри
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Завершенность проекта
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Заявка
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Заявка-проектная идея
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Идея
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Идея проекта
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Индивидуальный участник
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Исполнитель
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Исследование
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Категории участников
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Кванториум
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Компетенции
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Конкурс
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Личный кабинет
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Модерация
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} НТИ (Национальная технологическая инициатива)
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Организатор Конкурса
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Организация работы по проекту
+                                        .ui-glossary__content
+                                    .ui-glossary__item
+                                        .ui-glossary__heading #{'>'} Победители
+                                        .ui-glossary__content
+                    .container.ui-page__section.ui-page__section--pt-20#activities
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--default.ui-heading--lvl3.ui-heading--point Активности
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Проектный клуб
+                        .row
+                            .col-12
+                                p Проектная клуб — это особенный формат взаимодействия школьников, студентов, наставников, специалистов Центров молодежного инновационного творчества, представителей технологических компаний и субъектов инновационной инфраструктуры города Москвы.
+                                p Для обучения школьников проектным технологиям в сентябре-декабре 2018 года будут организовываться проектные сессии в павильоне «Умный город» на ВДНХ. Данные встречи будут проходить в рамках совместного проекта Департамента информационных технологий, Ассоциации субъектов инновационной инфраструктуры, а также проектного офиса ЦМИТ. 
+                                p Проектными тренерами ребят станут специалисты столичных ЦМИТ: «Креативное бюро», «Реактор», «Суперлаб» и др.
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5 Расписание
+                        .row
+                            .col-12
+                                .ui-timetable
+                                    .ui-timetable__item 14.09.2018. Нанотехнологии
+                                    .ui-timetable__item 28.09.2018. 3D-технологии
+                                    .ui-timetable__item 12.10.2018. 
+                                        a(href="#") Космические технологии
+                                    .ui-timetable__item 25.10.2018 В мире IT
+                                    .ui-timetable__item 09.11.2018 В мире IT
+                                    .ui-timetable__item 12.11.2018. Фестиваль цифровых достижений «ЦИФРА», Проектный интенсив «InnoMake»
+                                    .ui-timetable__item 18.11.2018. Фестиваль ЦМИТ Москвы, мастер-класс по проектным технологиям «InnoMake»
+                                    .ui-timetable__item 23.11.2018. 
+                                        a(href="#") Инфографика и оформление проектных работ
+                                    .ui-timetable__item 07.12.2018. 
+                                        a(href="#") 3D-технологии
+                        .row
+                            .col-12
+                                p Возможна предварительная запись групп (учащиеся 9-11 классов, 20 человек) с организацией экскурсии по окончании мероприятия.
+                        .row
+                            .col-12
+                                .ui-about-button
+                                    a.ui-button.ui-button--orange Подать заявку на участие
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Интенсивы
+                        .row
+                            .col-12
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5 Расписание
+                        .row
+                            .col-12
+                                .ui-timetable
+                                    .ui-timetable__item 14.09.2018. Нанотехнологии
+                                    .ui-timetable__item 28.09.2018. 3D-технологии
+                                    .ui-timetable__item 12.10.2018. 
+                                        a(href="#") Космические технологии
+                                    .ui-timetable__item 25.10.2018 В мире IT
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl4 Мероприятия
+                        .row
+                            .col-12
+                                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        .row
+                            .col-12
+                                .ui-heading.ui-heading--orange.ui-heading--lvl5 Расписание
+                        .row
+                            .col-12
+                                .ui-timetable.mb-0
+                                    .ui-timetable__item 14.09.2018. Нанотехнологии
+                                    .ui-timetable__item 28.09.2018. 3D-технологии
+                                    .ui-timetable__item 12.10.2018. 
+                                        a(href="#") Космические технологии
+                                    .ui-timetable__item 25.10.2018 В мире IT

@@ -32,6 +32,10 @@ body {
   }
 }
 
+.ui-navigation {
+  border-bottom: 1px solid $dark-blue-20;
+}
+
 .ui-menu {
   display: flex;
   justify-content: space-between;
@@ -131,6 +135,14 @@ body {
 
   &__section {
     padding-top: 50px;
+
+    &--pt-30 {
+        padding-top: 30px;
+    }
+
+    &--pt-20 {
+        padding-top: 20px;
+    }
   }
 }
 
@@ -157,6 +169,7 @@ body {
 
   &--white {
     background: white;
+    margin-bottom: 30px;
   }
 }
 
@@ -166,9 +179,40 @@ p {
   line-height: 24px;
   font-variant: small-caps;
   color: $dark-grey;
+  letter-spacing: 0.2px;
+
+  & + & {
+    padding-top: 20px;
+  }
 }
 
-p + p {
-  padding-top: 20px;
-}
+.ui-list-item {
+    font-family: $font-default;
+    font-size: 15px;
+    line-height: 24px;
+    font-variant: small-caps;
+    color: $dark-grey;
+    padding-left: 20px;
+    position: relative;
+    letter-spacing: .15px;
 
+    &--mb-20 {
+        margin-bottom: 20px;
+    }
+
+    &--mb-30 {
+        margin-bottom: 30px;
+    }
+
+    &:before {
+        content: ' ';
+        display: block;
+        width: 11px;
+        height: 11px;
+        border-radius: 11px;
+        position: absolute;
+        left: 0;
+        top: 6px;
+        background: linear-gradient(to right, $yellow, $orange);
+    }
+}

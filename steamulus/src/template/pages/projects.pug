@@ -1,0 +1,163 @@
+extends ../extend/default
+
+block variables
+    - var title = 'Projects page';
+
+block main
+    main.ui-page(data-page='projects')
+        .container
+            .row
+                .col-12.col-md-8.col-lg-4.offset-md-2.offset-lg-4
+                    .ui-search
+                        .ui-search__content
+                            input.ui-search__input(placeholder="Поиск проектов ...")
+                            button.ui-search__button
+                                img(src="/static/images/search_icon.png")
+                        .ui-search__filters
+                            .ui-search__filter Год
+                            .ui-search__filter Трек
+                            .ui-search__filter Ступень
+            .row
+                .col-12
+                    .ui-heading.ui-heading--default.ui-heading--lvl2.ui-heading--center Проекты
+            .row
+                .col-12
+                    .ui-projects-button
+                        a.ui-button.ui-button--orange Заявить проект
+            .row
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr1.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") Высокотехнологичная урна, сортирующая мусор по цвету
+                            .ui-project__author Гурьев Ф.К.
+                            .ui-project__type III Ступень
+                            .ui-project__address Детский Технопарк «Москва»
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr2.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") «LLL» - «Levitating Light Lamp»
+                            .ui-project__author Фесенко О.А.
+                            .ui-project__type II Ступень
+                            .ui-project__address «Кванториум» (Красноярск)
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr1.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") Высокотехнологичная урна, сортирующая мусор по цвету
+                            .ui-project__author Гурьев Ф.К.
+                            .ui-project__type III Ступень
+                            .ui-project__address Детский Технопарк «Москва»
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr2.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") «LLL» - «Levitating Light Lamp»
+                            .ui-project__author Фесенко О.А.
+                            .ui-project__type II Ступень
+                            .ui-project__address «Кванториум» (Красноярск)
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr1.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") Высокотехнологичная урна, сортирующая мусор по цвету
+                            .ui-project__author Гурьев Ф.К.
+                            .ui-project__type III Ступень
+                            .ui-project__address Детский Технопарк «Москва»
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr2.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") «LLL» - «Levitating Light Lamp»
+                            .ui-project__author Фесенко О.А.
+                            .ui-project__type II Ступень
+                            .ui-project__address «Кванториум» (Красноярск)
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr1.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") Высокотехнологичная урна, сортирующая мусор по цвету
+                            .ui-project__author Гурьев Ф.К.
+                            .ui-project__type III Ступень
+                            .ui-project__address Детский Технопарк «Москва»
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr2.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") «LLL» - «Levitating Light Lamp»
+                            .ui-project__author Фесенко О.А.
+                            .ui-project__type II Ступень
+                            .ui-project__address «Кванториум» (Красноярск)
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr1.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") Высокотехнологичная урна, сортирующая мусор по цвету
+                            .ui-project__author Гурьев Ф.К.
+                            .ui-project__type III Ступень
+                            .ui-project__address Детский Технопарк «Москва»
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr2.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") «LLL» - «Levitating Light Lamp»
+                            .ui-project__author Фесенко О.А.
+                            .ui-project__type II Ступень
+                            .ui-project__address «Кванториум» (Красноярск)
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr1.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") Высокотехнологичная урна, сортирующая мусор по цвету
+                            .ui-project__author Гурьев Ф.К.
+                            .ui-project__type III Ступень
+                            .ui-project__address Детский Технопарк «Москва»
+                .col-12.col-md-6.col-lg-3
+                    .ui-project
+                        .ui-project__header(style="background-image: url('/static/images/projects/pr2.png')")
+                            .ui-project__label Изобретай!
+                            a.ui-project__link(href="#")
+                                img(src="/static/images/open.png")
+                        .ui-project__content
+                            a.ui-project__heading(href="#") «LLL» - «Levitating Light Lamp»
+                            .ui-project__author Фесенко О.А.
+                            .ui-project__type II Ступень
+                            .ui-project__address «Кванториум» (Красноярск)
+            .row
+                .col-12
+                    .ui-projects-more
+                        a.ui-projects-more__link(href="#") Показать еще...
